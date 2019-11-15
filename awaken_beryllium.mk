@@ -6,6 +6,12 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
+#
+# All components inherited here go to system_ext image
+#
+$(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
+
 #Inherit some common awaken stuff
 $(call inherit-product, vendor/awaken/config/common.mk)
 $(call inherit-product, vendor/awaken/config/gsm.mk)
