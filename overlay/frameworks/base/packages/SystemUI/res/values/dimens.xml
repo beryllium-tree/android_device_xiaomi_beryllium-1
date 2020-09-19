@@ -33,4 +33,6 @@
     <!-- size at which Notification icons will be drawn in the status bar -->
     <dimen name="status_bar_icon_drawing_size">12dp</dimen>
 
+    <!-- The font size for the clock in the status bar. -->
+    <dimen name="status_bar_clock_size">13sp</dimen>
 </resources>
