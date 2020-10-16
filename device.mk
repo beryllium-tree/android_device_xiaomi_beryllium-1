@@ -37,6 +37,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
+# Messaging
+PRODUCT_PACKAGES += \
+   messaging
+
 # Inherit from sdm845-common
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 

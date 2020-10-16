@@ -26,6 +26,7 @@ BOARD_HAVE_QCOM_FM := false
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
 # HIDL
